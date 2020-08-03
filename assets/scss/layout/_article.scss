@@ -1,0 +1,29 @@
+article{
+    text-align: justify;
+}
+.post{
+
+    &__fecha{
+        font-family: $playfair;
+        font-weight: $font-regular;
+        font-size: $large;
+    }
+    &__texto{
+        font-family: $roboto;
+        font-weight: $font-light;
+        font-size: $medium;
+        line-height: 2;
+    }
+
+    .button{
+        background-color: $nickel; 
+        color: $white;
+        padding: 0.625rem;
+        border-radius: 30px;
+        
+     
+        &:hover{
+            background-color:$light-gray;
+        }
+     }
+}

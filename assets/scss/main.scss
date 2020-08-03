@@ -5,6 +5,7 @@
 @import 'abstracts/mixins';
 
 //vendors
+@import 'vendors/bootstrap_4.5.0/bootstrap';
 
 //base
 @import 'base/base';
@@ -14,7 +15,7 @@
 //layout
 @import 'layout/nav';
 @import 'layout/header';
-@import 'layout/main-article';
+@import 'layout/article';
 @import 'layout/section';
 @import 'layout/footer';
 
@@ -27,3 +28,5 @@
 
 //page
 //themes
+
+//

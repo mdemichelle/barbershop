@@ -1,0 +1,11 @@
+.footer{
+    background-color: $eerie-black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    &__logo{
+        width: 10%;
+
+    }
+}
